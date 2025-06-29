@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
+body {
+  font-family: 'Unbounded', cursive, sans-serif;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222;
+}
