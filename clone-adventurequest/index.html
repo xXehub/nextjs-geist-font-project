@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AdventureQuest Worlds Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-black font-unbounded text-white">
+
+  <!-- Top Bar -->
+  <div class="bg-gray-900 text-gray-300 text-xs flex justify-between px-4 py-1 items-center">
+    <div>6807 Players Online</div>
+    <div class="flex space-x-2">
+      <button class="bg-yellow-600 px-2 py-0.5 rounded text-black font-bold hover:bg-yellow-500">Get Launcher</button>
+      <button class="bg-yellow-600 px-2 py-0.5 rounded text-black font-bold hover:bg-yellow-500">Help</button>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="bg-black flex justify-between items-center px-6 py-3 border-b border-gray-700">
+    <div class="flex items-center space-x-4">
+      <img src="https://www.aq.com/images/aqw-logo.png" alt="AdventureQuest Worlds" class="h-10" />
+      <nav class="text-gray-300 text-sm font-semibold space-x-6">
+        <a href="#" class="hover:text-yellow-500">Game</a>
+        <a href="#" class="hover:text-yellow-500">Community</a>
+        <a href="#" class="hover:text-yellow-500">Account</a>
+        <a href="#" class="hover:text-yellow-500">Shop</a>
+      </nav>
+    </div>
+    <div class="flex items-center space-x-3">
+      <button class="bg-gray-800 text-white px-3 py-1 rounded hover:bg-gray-700">Free Sign Up</button>
+      <button class="bg-red-700 text-white px-5 py-2 rounded font-bold hover:bg-red-600">PLAY</button>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="relative bg-black max-w-7xl mx-auto mt-4">
+    <img src="https://www.aq.com/images/aqw-banner.jpg" alt="AdventureQuest Worlds Banner" class="w-full object-cover max-h-[300px]" />
+    <div class="absolute inset-0 flex justify-center items-center space-x-6">
+      <button class="bg-red-700 text-white px-6 py-3 rounded font-bold hover:bg-red-600 flex items-center space-x-2">
+        <img src="https://www.aq.com/images/hero-icon.png" alt="Hero Icon" class="h-6" />
+        <span>CREATE YOUR HERO</span>
+      </button>
+      <button class="bg-red-900 text-yellow-400 px-10 py-3 rounded font-extrabold text-2xl hover:bg-red-800">Play</button>
+      <button class="bg-yellow-700 text-black px-6 py-3 rounded font-bold hover:bg-yellow-600 flex items-center space-x-2">
+        <img src="https://www.aq.com/images/coin-icon.png" alt="Coins" class="h-6" />
+        <span>UPGRADE & ADVENTURE COINS</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Promotions Section -->
+  <section class="max-w-5xl mx-auto mt-8 bg-gray-900 rounded-lg p-4 flex space-x-4 overflow-x-auto">
+    <img src="https://www.aq.com/images/festival-of-victors.jpg" alt="Festival of Victors" class="h-32 rounded-md flex-shrink-0" />
+    <img src="https://www.aq.com/images/summer-bonus-sale.jpg" alt="Summer Bonus Sale" class="h-32 rounded-md flex-shrink-0" />
+    <img src="https://www.aq.com/images/deep-creatures.jpg" alt="Deep Creatures Collection" class="h-32 rounded-md flex-shrink-0" />
+  </section>
+
+  <!-- Game News Section -->
+  <section class="max-w-5xl mx-auto mt-8 bg-yellow-100 bg-opacity-20 rounded-lg p-6 text-gray-900">
+    <h2 class="text-center font-bold text-lg mb-4 border-b border-yellow-400 pb-2">Game News</h2>
+    <div class="flex space-x-6">
+      <div class="w-1/2 bg-yellow-50 rounded-md p-3 shadow-md">
+        <div class="relative">
+          <img src="https://www.aq.com/images/aqw-video-thumbnail.jpg" alt="AQW Video" class="rounded-md" />
+          <button class="absolute inset-0 flex justify-center items-center text-white text-4xl font-bold bg-black bg-opacity-50 rounded-md hover:bg-opacity-70">
+            ▶
+          </button>
+        </div>
+        <div class="mt-3 text-sm">
+          <p><strong class="text-red-600">Free MMO/MMORPG Fantasy Roleplaying Game!</strong></p>
+          <p>Get ready for nonstop action and adventure! AdventureQuest Worlds is the best MMORPG (massively multiplayer online roleplaying game) that is browser based. There are no downloads or software to install, and this 2D MMO fantasy RPG is free to play! Brandish your blade, conjure your spells, and heed the call of Battle On!</p>
+          <div class="mt-3 flex space-x-3">
+            <button class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Facebook</button>
+            <button class="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700">Youtube</button>
+            <button class="bg-sky-500 text-white px-3 py-1 rounded hover:bg-sky-600">Twitter</button>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 p-3 text-sm space-y-4">
+        <div class="flex items-center space-x-3 bg-yellow-50 rounded-md p-2 shadow-md">
+          <img src="https://www.aq.com/images/character-icon.jpg" alt="Character" class="h-12 rounded-full" />
+          <div>
+            <p class="text-xs text-gray-600">June 22, 2025</p>
+            <p class="font-bold text-red-700">Hollowborn Vindicator Class & Ultra Boss</p>
+            <p>The Shadow Fiend Calls to You</p>
+          </div>
+        </div>
+        <a href="#" class="text-yellow-600 underline text-right block">AdventureQuest Worlds</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cookie Policy Bar -->
+  <div class="fixed bottom-0 left-0 right-0 bg-gray-900 text-gray-300 text-xs flex justify-between items-center px-4 py-2">
+    <div>We use cookies on this site to enhance your experience, provide services and products, and display content from third parties. <a href="#" class="text-yellow-600 underline">Cookie Policy.</a></div>
+    <div class="flex space-x-2">
+      <button class="bg-yellow-600 px-3 py-1 rounded text-black font-bold hover:bg-yellow-500">More Details</button>
+      <button class="bg-yellow-600 px-3 py-1 rounded text-black font-bold hover:bg-yellow-500">Got it!</button>
+    </div>
+  </div>
+
+</body>
+</html>
